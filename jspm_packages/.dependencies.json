@@ -1,0 +1,6 @@
+{
+  "github:frankwallis/plugin-typescript@4.0.2": {
+    "typescript": "npm:typescript@^1.8.2"
+  },
+  "npm:typescript@1.8.7": {}
+}
