@@ -1,0 +1,42 @@
+{
+  "name": "mass",
+  "version": "0.0.1",
+  "description": "Modular Angular Skeleton",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "jspm install",
+    "dev": "node build/tasks/dev",
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nCore/mass.git"
+  },
+  "keywords": [
+    "angular",
+    "modular",
+    "skeleton",
+    "es6",
+    "typescript"
+  ],
+  "contributors": [
+    "Dawid Opis <ncore@ncore.com.pl>",
+    "Sebastian Sobociński <hiddenboox@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nCore/mass/issues"
+  },
+  "homepage": "https://github.com/nCore/mass#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "jspm": "^0.16.30",
+    "typings": "^0.6.10"
+  },
+  "jspm": {
+    "configFile": "jspm.config.js",
+    "devDependencies": {
+      "ts": "github:frankwallis/plugin-typescript@^4.0.2"
+    }
+  }
+}
